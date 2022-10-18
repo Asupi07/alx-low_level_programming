@@ -1,11 +1,14 @@
 #include <unistd.h>
 /**
- * main -program entry point.
+ * main -Entry point
  *
- * Return: 1 on success.
+ * Description: 'the program's description'
+ *
+ * Return: will be 1 on success
  */
+
 int main(void)
 {
-	write(2, "and that peace of art is useful\" - Dora Korpar,2015-10-19\n", 59);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
