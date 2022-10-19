@@ -1,31 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
+ * main - prints all digits
  *
- * main - Entry point
- *
- * 
- *
- * Return: Always 0 (Success)
- *
+ * Description - this program prints " All digits"
+ * Return : 0
  */
-
 int main(void)
-
-
-
 {
-
 	int i;
+for (i = 0; i < 10; i++)
+{
+	printf("%i", i);
+}
+printf("\n");
 
-	for (i = 0; i < 10; i++)
-
-		printf("%d", i);
-
-	printf("\n");
-
-	return (0);
-
+return (0);
 }
