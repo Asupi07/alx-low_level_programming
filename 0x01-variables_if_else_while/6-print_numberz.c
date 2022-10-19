@@ -1,21 +1,28 @@
 #include <stdio.h>
+
+#include <stdlib.h>
+
+#include <time.h>
+
+
 /**
- * main - print all single numbers
+ * main - Entry point
  *
- * Description: programme prints " all single numbers"
+ * Description - starting point of program execution
  *
- * return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 
 {
-	int n;
-for (n = '0'; n <= '9'; n++)
-{
-	putchar (n);
-}
-putchar('\n');
 
-return (0);
+	int d;
+
+	for (d = '0'; d <= '9'; d++)
+		putchar(d);
+	putchar('\n');
+
+
+	return (0);
 
 }
