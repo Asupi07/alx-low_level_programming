@@ -1,17 +1,29 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - programme that prints the reverse alphabet
+ * main - Entry point
  *
- * Description: using main function programme prints " reverse alphabet"
- * Return: 0
+ * Description - serves as the starting point of a program
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
+
+
+
 {
-	char c;
-for (c = 'z'; c >= 'a'; c--)
-{
-	putchar(c);
+
+	char low;
+
+	for (low = 'z'; low >= 'a'; low--)
+
+		putchar(low);
+
+	putchar('\n');
+
+	return (0);
+
 }
-putchar('\n');
-return(0);
-}
+
