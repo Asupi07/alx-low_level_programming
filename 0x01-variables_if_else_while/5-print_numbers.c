@@ -3,7 +3,8 @@
  * main - prints all digits
  *
  * Description - this program prints " All digits"
- * Return : 0
+ *
+ * Return: 0
  */
 int main(void)
 {
